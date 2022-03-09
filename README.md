@@ -18,9 +18,11 @@ What is this framework:
 ### Installation
 
 You just need to add this config to your apache.conf file<br>
-<pre><code><Directory "/var/www/html"><br>
+<pre><code>
+  <Directory "/var/www/html"><br>
   AllowOverride All<br>
-</Directory></code></pre>
+  </Directory></code>
+  </pre>
 
 <!-- CONTACT -->
 ## Contact
