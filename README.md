@@ -18,14 +18,14 @@ What is this framework:
 ### Installation
 
 You just need to add this config to your apache.conf file
-<Directory "/var/www/html">
-  AllowOverride All
+<Directory "/var/www/html"><br>
+  AllowOverride All<br>
 </Directory>
 
 <!-- CONTACT -->
 ## Contact
 
-Kadir Barış Bozat - [@your_twitter](https://twitter.com/freakazoid0422) - kbbozat@hotmail.com - https://www.linkedin.com/in/kadir-bar%C4%B1%C5%9F-bozat-6a495811b/
+Kadir Barış Bozat - [@freakazoid0422](https://twitter.com/freakazoid0422) - kbbozat@hotmail.com - https://www.linkedin.com/in/kadir-bar%C4%B1%C5%9F-bozat-6a495811b/
 
 Project Link: [https://github.com/pickle_framework/new/main](https://github.com/pickle_framework/new/main)
 
