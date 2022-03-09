@@ -1,0 +1,142 @@
+
+
+.menu-toggle > *{ pointer-events:none !important;}
+.footer{
+    position: fixed !important;
+    bottom: 0px !important;
+    width: 100% !important;
+}
+.selectable-icon > * {pointer-events: none;}
+.selectable-icon {cursor: pointer;}
+.selectable-icon:hover,
+.selectable-icon:hover * {color:tomato !important ;}
+
+
+.selectable > * {pointer-events: none;}
+.selectable:hover {cursor: pointer; color: white; background-color: tomato !important;}
+
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+.aside-logo{    display: flex;align-items: flex-end;color: white;}
+.aside-logo i{color: white;}
+/* spinner styles*/
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.b-loader {
+    position: relative;
+}
+
+.b-loader::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    border-top-color: #fff;
+    animation: spinner .8s linear infinite;
+    z-index: 2001;
+}
+
+.b-loader::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212121c7;
+    opacity: .7;
+    z-index: 2000;
+    border-radius: 4px;
+}
+/*** **/
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.kc_fab_main_btn{
+    background-color:greenyellow;
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    border:none;
+    outline:none;
+    color:#FFF;
+    font-size:36px;
+    box-shadow: 0 0 5px grey;
+    transition:.3s;  
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    position: fixed;
+    z-index: 2;
+    bottom: 40px;
+    right: 40;
+}
+
+.kc_fab_main_btn:hover {
+    cursor: pointer;
+    background-color: tomato;
+    box-shadow: 0 0 50px tomato;
+}
