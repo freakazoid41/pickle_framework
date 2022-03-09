@@ -17,7 +17,7 @@ What is this framework:
 <!-- GETTING STARTED -->
 ### Installation
 
-You just need to add this config to your apache.conf file
+You just need to add this config to your apache.conf file<br>
 <Directory "/var/www/html"><br>
   AllowOverride All<br>
 </Directory>
