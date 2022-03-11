@@ -7,7 +7,7 @@ class System{
     function __construct($headers){
 		$parts = explode('/',$_SERVER['REQUEST_URI']);
 		$this->config = parse_ini_file("../../conf/app/api/config.ini");
-		if($parts[1]!='admin_login'){
+		/*if($parts[1]!='admin_login'){
 			$rsp = \app\helpers\System::checkToken($headers);
 			//token failed
 			if(!$rsp['success']){
@@ -25,7 +25,7 @@ class System{
 				die; //Stops executing the PHP 
 			}
 			$_SESSION['headers'] = $headers;
-		}
+		}*/
     }
 
 
